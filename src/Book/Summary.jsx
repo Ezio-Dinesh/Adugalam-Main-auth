@@ -38,7 +38,7 @@ useEffect(() => {
 
   const handlePayment = async () => {
   try {
-    const res = await fetch("http://localhost:5000/create-order", {
+    const res = await fetch(`${import.meta.env.VITE_API_BASE_URL}/create-order`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ amount: 2000 }),
@@ -46,48 +46,42 @@ useEffect(() => {
 
     const order = await res.json();
 
-    const options = {
-      key: import.meta.env.VITE_RAZORPAY_KEY_ID,
-      amount: order.amount,
-      currency: "INR",
-      name: "Adugalam",
-      description: "Ground Booking Payment",
-      order_id: order.id,
+   const options = {
+  key: import.meta.env.VITE_RAZORPAY_KEY_ID,
+  amount: order.amount,
+  currency: "INR",
+  name: "Adugalam",
+  description: "Ground Booking Payment",
+  order_id: order.id,
 
-      handler: function (response) {
-        // ✅ SUCCESS
-        navigate("/summary", {
-          
-          state: { paymentId: response.razorpay_payment_id },
-          
-        });
-        setShowSuccess(true); 
-      },
+  handler: function (response) {
+    console.log("Payment ID:", response.razorpay_payment_id);
+    console.log("Order ID:", response.razorpay_order_id);
 
-      handler: function (response) {
-  console.log("Payment ID:", response.razorpay_payment_id);
-  console.log("Order ID:", response.razorpay_order_id);
-    setShowSuccess(true); 
+    setShowSuccess(true);
 
-},
+    navigate("/summary", {
+      state: { paymentId: response.razorpay_payment_id },
+    });
+  },
 
-      modal: {
-        ondismiss: function () {
-          // ✅ User clicked cancel → DO NOTHING
-          console.log("User closed razorpay popup");
-        },
-      },
+  modal: {
+    ondismiss: function () {
+      console.log("User closed razorpay popup");
+    },
+  },
 
-      prefill: {
-        name: "Test User",
-        email: "test@gmail.com",
-        contact: "9999999999",
-      },
+  prefill: {
+    name: "Test User",
+    email: "test@gmail.com",
+    contact: "9999999999",
+  },
 
-      theme: {
-        color: "#16a34a",
-      },
-    };
+  theme: {
+    color: "#16a34a",
+  },
+};
+
 
     const rzp = new window.Razorpay(options);
 
