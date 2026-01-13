@@ -10,7 +10,7 @@ import BadmintonIcon from "../images/Badminton 1 icon_Adugalam_Sports booking ap
 import BasketballIcon from "/Swimming.png";
 import sportswearIcon from "../assets/sportswears.png"; 
 import footwearIcon from "../assets/footwear.png";
-import accessoriesIcon from "../assets/accessoriess.png";
+import accessoriesIcon from "../assets/accessories.png";
 import fitnessIcon from "../assets/fitness.png";
 
 
