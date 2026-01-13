@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./MyFavourite.css";
+import "./Myfavourite.css";
 import { useNavigate } from "react-router-dom";
 import { FaArrowLeft } from "react-icons/fa";
 
