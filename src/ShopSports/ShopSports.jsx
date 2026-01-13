@@ -8,9 +8,9 @@ import FootballIcon from "../images/Foot Ball icon_Adugalam_Sports booking app.p
 import CricketIcon from "../images/Cricket icon_Adugalam_Sports booking app.png";
 import BadmintonIcon from "../images/Badminton 1 icon_Adugalam_Sports booking app.png";
 import BasketballIcon from "/Swimming.png";
-import sportswearIcon from "../assets/sportswear.png"; 
+import sportswearIcon from "../assets/sportswear1.png"; 
 import footwearIcon from "../assets/footwear.png";
-import accessoriesIcon from "../assets/accessories.png";
+import accessoriesIcon from "../assets/accessories1.png";
 import fitnessIcon from "../assets/fitness.png";
 
 
