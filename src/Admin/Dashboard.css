@@ -1,0 +1,163 @@
+
+
+/* LAYOUT */
+.dashboard-container {
+  display: flex;
+}
+
+/* ========== SIDEBAR ========== */
+.sidebar {
+  width: 230px;
+  background: #14532d;
+  color: white;
+  min-height: 100vh;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.sidebar h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+/* Links */
+.sidebar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+/* Hover */
+.sidebar a:hover {
+  background: #22c55e;
+}
+
+/* Active (NavLink) */
+.sidebar a.active {
+  background: #22c55e;
+  font-weight: bold;
+}
+
+/* Logout */
+.sidebar .logout a {
+  background: #991b1b;
+  margin-top: 20px;
+}
+
+.sidebar .logout a:hover {
+  background: #b91c1c;
+}
+
+/* ========== MAIN CONTENT ========== */
+.main {
+  margin-left: 230px;
+  padding: 30px;
+  width: 100%;
+}
+
+/* Header */
+.header h1 {
+  color: #1e293b;
+  font-size: 26px;
+}
+
+.header p {
+  color: #64748b;
+  margin-top: 6px;
+}
+
+/* ========== TOP CARDS ========== */
+/* CARD CONTAINER */
+.stats-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  margin: 25px 0;
+}
+
+.stat-card {
+  background: #fff;
+  border: 2px solid #000;
+  border-radius: 20px;
+  padding: 24px 28px;
+}
+
+.stat-card h4 {
+  color: #14532d;
+  font-size: 16px;
+  margin-bottom: 14px;
+}
+
+.stat-card p {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+/* ========== TODAY OVERVIEW ========== */
+.today {
+  margin-top: 35px;
+}
+
+.today h2 {
+  margin-bottom: 15px;
+}
+
+.today-box {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.today-card {
+  background: white;
+  padding: 18px 20px;
+  border-radius: 12px;
+  width: 220px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+}
+
+.today-card span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* ========== ANALYTICS ========== */
+.analytics {
+  margin-top: 40px;
+}
+
+.analytics h2 {
+  margin-bottom: 15px;
+}
+
+.chart-wrapper {
+  background: white;
+  padding: 20px;
+  border-radius: 14px;
+  max-width: 700px;
+  height: 260px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+}
+
+/* ========== FOOTER ========== */
+.footer {
+  margin-top: 40px;
+  text-align: center;
+  color: #64748b;
+  font-size: 14px;
+}

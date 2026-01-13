@@ -1,0 +1,438 @@
+/* ================= ROOT ================= */
+.shop-page1 {
+  font-family: 'Space Grotesk', sans-serif;
+  background: #f8f9fc;
+  color: #1f2937;
+}
+
+/* ================= HERO SECTION ================= */
+.shop-hero1 {
+  background: linear-gradient(135deg,white);
+  padding: 40px 20px;
+  text-align: center;
+  color:black;
+}
+
+.shop-hero-tag1 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 1000;
+  opacity: 0.9;
+}
+
+.shop-hero-text1 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 12px 0 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ color: #4b5563;
+}
+
+.shop-btn-pr1 {
+  background:black;
+  color: #fff;
+  border: none;
+  padding: 14px 34px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.shop-btn-pr1:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px #ea530c(0, 0, 0, 0.25);
+  cursor:pointer;
+  background-color: #ea530c;
+}
+
+/* ================= CATEGORY SECTION ================= */
+.category-section1 {
+  padding: 53px 8%;
+}
+
+.shop-section-title1 {
+  text-align: center;
+  font-size: 28px;
+  color: black;
+  margin-top: -50px;
+  margin-bottom: 50px;
+  font-weight: 700;
+}
+.apples{
+   font-size: 17px;
+ color: #4b5563;
+ margin-left: 500px;
+ margin-top: -15px;
+ margin-bottom: 30px;
+}
+
+
+.shop-category-grid1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.shop-category-card1 {
+  background: #ffffff;
+    border: 2px solid black;
+
+  border-radius: 18px;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.shop-category-card1:hover {
+  transform: translate(-4px,-4px);
+  box-shadow: 12px 12px 0px #15803d;
+}
+
+.shop-category-icon1 {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 14px;
+}
+
+.shop-category-card1 p:first-of-type {
+  font-weight: 600;
+  font-size: 16px;
+  color: #ea530c;
+}
+
+.shop-category-card1 p:last-of-type {
+  font-size: 14px;
+  font-size: 14px;
+color:#15803d;  margin-top: 6px;
+}
+
+
+/* ================= FEATURES SECTION ================= */
+
+.bowl
+{
+  padding-top: 70px;
+  margin-bottom: 30px;
+}
+.apples5{   
+  font-size: 17px;
+ color: #4b5563;
+ margin-left: 600px;
+ margin-top: 15px;
+ margin-bottom:-10px ;
+ /* margin-bottom: 20px; */
+}
+
+
+.features-section1 {
+  background: #ffffff;
+  padding: 70px 8%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.feature-item1 {
+  text-align: center;
+  padding: 30px;
+border: 2px solid grey;
+  background: #f9fafb;
+  border-radius: 12px;
+  transition: transform 0.3s;
+}
+
+.feature-item1:hover {
+  transform: translate(-4px,-4px);
+  box-shadow: 12px 12px 0px #15803d;
+}
+
+.feature-icon1 {
+  font-size: 36px;
+  margin-bottom: 14px;
+}
+
+.feature-item1 h4 {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #ea530c;
+}
+
+.feature-item1 p {
+  font-size: 14px;
+color:#16a34a;}
+
+/* ================= MARKETPLACE SECTION ================= */
+.marketplace-wrapper1 {
+  padding: 80px 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.marketplace-card1 {
+  max-width: 600px;
+  background: linear-gradient(135deg,white);
+  color:black;
+  padding: 50px 40px;
+  border-radius: 24px;
+  text-align: center;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.25);
+}
+
+.marketplace-icon1 {
+  margin-bottom: 16px;
+}
+
+.marketplace-card1 h3 {
+  font-size: 26px;
+  margin-bottom: 14px;
+}
+
+.marketplace-card1 p {
+  font-size: 15px;
+  line-height: 1.6;
+  opacity: 0.95;
+}
+
+.marketplace-btn1 {
+  margin-top: 22px;
+  padding: 12px 30px;
+  border-radius: 15px;
+  border: none;
+  font-weight: 600;
+  background: black;
+  color:#fff;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.marketplace-btn1:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  background-color: #ea530c;
+}
+
+/* ================= RETAILER CTA ================= */
+.retailer-section1 {
+  background: #1f2937;
+  color: #ffffff;
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.retailer-section1 h2 {
+  font-size: 30px;
+  margin-bottom: 16px;
+  color:white;
+}
+
+.retailer-section1 p {
+  max-width: 600px;
+  margin: 0 auto 24px;
+  font-size: 16px;
+  color: #d1d5db;
+}
+
+.retailer-btn1 {
+  color: #000;
+  background:#fff;
+  border: none;
+  padding: 14px 34px;
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  /* color: #ffffff; */
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.retailer-btn1:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+  color: #fff;
+  background-color: #ea530c;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+  .shop-hero-text1 {
+    font-size: 26px;
+  }
+
+  .shop-section-title1 {
+    font-size: 24px;
+  }
+
+  .marketplace-card1 {
+    padding: 35px 25px;
+  }
+}
+
+
+
+
+
+
+
+
+/* =====================================================
+   SHOP SPORTS – RESPONSIVE SAFETY LAYER
+   (DO NOT REMOVE OR MODIFY EXISTING STYLES)
+   ===================================================== */
+
+.shop-page1,
+.shop-hero1,
+.category-section1,
+.features-section1,
+.marketplace-wrapper1,
+.retailer-section1 {
+  max-width: 100vw;
+
+  
+}
+.category-section1
+{
+  margin-top: 30px;
+}
+
+/* ============================
+   HERO
+   ============================ */
+@media (max-width: 768px) {
+  .shop-hero1 {
+    padding: 50px 16px;
+  }
+
+  .shop-hero-tag1 {
+    font-size: 22px;
+  }
+
+  .shop-hero-text1 {
+    font-size: 16px;
+  }
+
+  .shop-btn-pr1 {
+    width: 100%;
+    max-width: 280px;
+  }
+}
+
+/* ============================
+   FIX BROKEN CENTER TEXT
+   ============================ */
+@media (max-width: 1024px) {
+  .apples,
+  .apples5 {
+    margin-left: 0 !important;
+    text-align: center;
+  }
+}
+
+/* ============================
+   CATEGORY GRID
+   ============================ */
+@media (max-width: 1024px) {
+  .shop-category-grid1 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .shop-category-grid1 {
+    grid-template-columns: 1fr;
+  }
+
+  .shop-category-icon1 {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+/* ============================
+   FEATURES GRID
+   ============================ */
+@media (max-width: 1024px) {
+  .features-section1 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .features-section1 {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ============================
+   MARKETPLACE CARD
+   ============================ */
+@media (max-width: 768px) {
+  .marketplace-wrapper1 {
+    padding: 50px 16px;
+  }
+
+  .marketplace-card1 {
+    padding: 30px 20px;
+    max-width: 100%;
+  }
+}
+
+/* ============================
+   RETAILER CTA
+   ============================ */
+@media (max-width: 768px) {
+  .retailer-section1 h2 {
+    font-size: 22px;
+  }
+
+  .retailer-section1 p {
+    font-size: 14px;
+  }
+
+  .retailer-btn1 {
+    width: 100%;
+    max-width: 280px;
+  }
+}
+
+/* ============================
+   FINAL SAFETY
+   ============================ */
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+@media (max-width: 640px) {
+  .shop-category-grid1,
+  .features-section1 {
+    display: flex;
+    flex-wrap: nowrap;
+    
+    gap: 16px;
+    padding-bottom: 10px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  
+
+  .shop-category-card1,
+  .feature-item1 {
+    min-width: 85%;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+  }
+}
